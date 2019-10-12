@@ -1,0 +1,37 @@
+-record(hero, 
+	{
+	name,
+	courage,
+	cleverness,
+	charisma,
+	dexterity,
+	strength,
+	level,
+	lifepoints,
+	astralpoints,
+	karmapoints,
+	experience,
+	attack,
+	parade,
+	weapon,
+	armor,
+	has_attacked,
+	has_defended
+	}).
+
+-record(weapon,
+	{
+	name,
+	fragility,
+	attackmodifier,
+	parademodifier,
+	damage,
+	weight 
+	}).
+
+-record(set_of_dice,
+	{
+	number_of_dice,
+	type_of_dice,
+	modifier
+	}).
